@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+}
+body{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: white;
+    width: 450px;
+    height: 690px;
+    border-radius: 20px;
+    margin: 70px;
+}
+.content{
+    width: 80%;
+    margin: auto;
+    padding: 30px 0 30px 0;
+}
+img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+h1{
+    font-size: 2em;
+}
+h1,p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.container p{
+    opacity: 60%;
+    letter-spacing: 0.03em;
+    line-height: 1.6em;
+}
+
+section{
+    background-color:  hsl(180, 7%, 97%);
+    border-radius: 20px;
+    margin-bottom: 35px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.payment{
+    display: block;
+    text-align: center;
+    background-color: hsl(223, 47%, 23%);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 30px 0 30px 0;
+}
+.payment a{
+    color: white;
+    text-decoration: none;
+
+}
+.payment:hover{
+    background-color:hsl(224, 23%, 55%) ;
+}
+.cancel{
+    text-align: center;
+}
+.cancel a{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    opacity: 60%;
+}
+.cancel a:hover{
+    opacity: 1;
+}
+.left{
+    display: flex;
+    width: 50%;
+
+}
+.button{
+    display: flex;
+    align-self: center;
+}
+.button a:hover{
+    text-decoration: none;
+}
+.tarifimg{
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.text span{
+    opacity: 50%;
+
+}
